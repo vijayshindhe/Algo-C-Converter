@@ -1,4 +1,4 @@
-# ⚡ Algo to C Converter Engine
+# ⚡ Algorithm to C Program Converter 
 
 A professional Front-End compiler interface designed to translate structured Pseudo-code into executable C source code. This project demonstrates the core principles of **Lexical Analysis**, **Syntax Analysis**, and **Code Generation**.
 
@@ -39,20 +39,5 @@ END
 - **Styling**: Vanilla CSS with Design System
 - **Fonts**: Outfit (UI), Fira Code (Mono)
 
-## 🏁 Getting Started
 
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   ```
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-3. Run the development server:
-   ```bash
-   npm run dev
-   ```
-
----
 *Built for Advanced Algorithmic Logic & C Programming Objectives.*

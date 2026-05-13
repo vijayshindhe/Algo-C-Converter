@@ -1,16 +1,58 @@
-# React + Vite
+# ⚡ Algo to C Converter Engine
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A professional Front-End compiler interface designed to translate structured Pseudo-code into executable C source code. This project demonstrates the core principles of **Lexical Analysis**, **Syntax Analysis**, and **Code Generation**.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Lexical Analysis**: Real-time identification of tokens including Keywords (`START`, `IF`, `REPEAT`), Identifiers, Literals, and Operators.
+- **Syntax Analysis**: Structural validation of algorithmic constructs with error reporting for unclosed blocks or invalid syntax.
+- **Multi-View Output**: Toggle between generated **C Source Code** and a detailed **Token Stream** view.
+- **Comprehensive Support**: Handles variable declarations, input/output, conditional logic (`IF-ELSE`), loops (`FOR`, `WHILE`, `REPEAT-UNTIL`), and control flow (`SWITCH-CASE`).
+- **Premium UI**: Modern, bold interface built with React, featuring glassmorphism and high-impact typography.
 
-## React Compiler
+## 🛠️ Learning Objectives Covered
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Lexical Analysis**: Tokenizing high-level algorithmic language.
+- **Syntax Analysis**: Parsing structured logic into code blocks.
+- **Code Generation**: Mapping pseudo-code constructs to target C syntax.
 
-## Expanding the ESLint configuration
+## 📝 Supported Algorithm Language
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The engine supports a structured pseudo-code format:
+
+```text
+START
+DECLARE a, b, sum
+INPUT a, b
+sum = a + b
+IF sum > 10 THEN
+    PRINT "Large Sum"
+ELSE
+    PRINT sum
+END IF
+END
+```
+
+## 💻 Tech Stack
+
+- **Framework**: React.js (Vite)
+- **Styling**: Vanilla CSS with Design System
+- **Fonts**: Outfit (UI), Fira Code (Mono)
+
+## 🏁 Getting Started
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+---
+*Built for Advanced Algorithmic Logic & C Programming Objectives.*
